@@ -600,7 +600,7 @@
         "rating": 3
     },
     {
-        "fotoProduk": "https://via.placeholder.com/150",
+        "fotoProduk": "./Assets/Jusjeruk.png",
         "namaProduk": "Jus Jeruk",
         "hargaProduk": 21000,
         "namaSupermarket": "Lawson",
@@ -608,7 +608,7 @@
         "rating": 5
     },
     {
-        "fotoProduk": "https://via.placeholder.com/150",
+        "fotoProduk": "./Assets/Airkelapa.png",
         "namaProduk": "Air Kelapa",
         "hargaProduk": 13000,
         "namaSupermarket": "Lawson",
@@ -616,19 +616,11 @@
         "rating": 3
     },
     {
-        "fotoProduk": "https://via.placeholder.com/150",
+        "fotoProduk": "./Assets/Tehhijau.png",
         "namaProduk": "Teh Hijau",
         "hargaProduk": 16000,
         "namaSupermarket": "Lawson",
         "kategori": "Drinks",
         "rating": 4
-    },
-    {
-        "fotoProduk": "https://via.placeholder.com/150",
-        "namaProduk": "Smoothie Mangga",
-        "hargaProduk": 26000,
-        "namaSupermarket": "Lawson",
-        "kategori": "Drinks",
-        "rating": 5
     }
 ]
