@@ -1,0 +1,634 @@
+[
+    {
+        "fotoProduk": "./Assets/beraspremium.png",
+        "namaProduk": "Beras Premium",
+        "hargaProduk": 62000,
+        "namaSupermarket": "Aeon",
+        "kategori": "Seasoning",
+        "rating": 4
+    },
+    {
+        "fotoProduk": "./Assets/minyakgoreng.png",
+        "namaProduk": "Minyak Goreng",
+        "hargaProduk": 27000,
+        "namaSupermarket": "Aeon",
+        "kategori": "Seasoning",
+        "rating": 5
+    },
+    {
+        "fotoProduk": "./Assets/gulapasir.png",
+        "namaProduk": "Gula Pasir",
+        "hargaProduk": 13000,
+        "namaSupermarket": "Aeon",
+        "kategori": "Seasoning",
+        "rating": 3
+    },
+    {
+        "fotoProduk": "./Assets/garam.png",
+        "namaProduk": "Garam",
+        "hargaProduk": 5500,
+        "namaSupermarket": "Aeon",
+        "kategori": "Seasoning",
+        "rating": 4
+    },
+    {
+        "fotoProduk": "./Assets/ladahitam.png",
+        "namaProduk": "Lada Hitam",
+        "hargaProduk": 8500,
+        "namaSupermarket": "Aeon",
+        "kategori": "Seasoning",
+        "rating": 3
+    },
+    {
+        "fotoProduk": "./Assets/kecapmanis.png",
+        "namaProduk": "Kecap Manis",
+        "hargaProduk": 8500,
+        "namaSupermarket": "Aeon",
+        "kategori": "Seasoning",
+        "rating": 3
+    },
+    {
+        "fotoProduk": "./Assets/beraspremium.png",
+        "namaProduk": "Beras Premium",
+        "hargaProduk": 63000,
+        "namaSupermarket": "Duta Buah",
+        "kategori": "Seasoning",
+        "rating": 3
+    },
+    {
+        "fotoProduk": "./Assets/minyakgoreng.png",
+        "namaProduk": "Minyak Goreng",
+        "hargaProduk": 28000,
+        "namaSupermarket": "Duta Buah",
+        "kategori": "Seasoning",
+        "rating": 4
+    },
+    {
+        "fotoProduk": "./Assets/gulapasir.png",
+        "namaProduk": "Gula Pasir",
+        "hargaProduk": 14000,
+        "namaSupermarket": "Duta Buah",
+        "kategori": "Seasoning",
+        "rating": 5
+    },
+    {
+        "fotoProduk": "./Assets/garam.png",
+        "namaProduk": "Garam",
+        "hargaProduk": 6000,
+        "namaSupermarket": "Duta Buah",
+        "kategori": "Seasoning",
+        "rating": 3
+    },
+    {
+        "fotoProduk": "./Assets/ladahitam.png",
+        "namaProduk": "Lada Hitam",
+        "hargaProduk": 9000,
+        "namaSupermarket": "Duta Buah",
+        "kategori": "Seasoning",
+        "rating": 4
+    },
+    {
+        "fotoProduk": "./Assets/kecapmanis.png",
+        "namaProduk": "Kecap Manis",
+        "hargaProduk": 8000,
+        "namaSupermarket": "Duta Buah",
+        "kategori": "Seasoning",
+        "rating": 4
+    },
+    {
+        "fotoProduk": "./Assets/beraspremium.png",
+        "namaProduk": "Beras Premium",
+        "hargaProduk": 61000,
+        "namaSupermarket": "FoodMart",
+        "kategori": "Seasoning",
+        "rating": 4
+    },
+    {
+        "fotoProduk": "./Assets/minyakgoreng.png",
+        "namaProduk": "Minyak Goreng",
+        "hargaProduk": 26000,
+        "namaSupermarket": "FoodMart",
+        "kategori": "Seasoning",
+        "rating": 5
+    },
+    {
+        "fotoProduk": "./Assets/gulapasir.png",
+        "namaProduk": "Gula Pasir",
+        "hargaProduk": 12500,
+        "namaSupermarket": "FoodMart",
+        "kategori": "Seasoning",
+        "rating": 3
+    },
+    {
+        "fotoProduk": "./Assets/garam.png",
+        "namaProduk": "Garam",
+        "hargaProduk": 5250,
+        "namaSupermarket": "FoodMart",
+        "kategori": "Seasoning",
+        "rating": 4
+    },
+    {
+        "fotoProduk": "./Assets/ladahitam.png",
+        "namaProduk": "Lada Hitam",
+        "hargaProduk": 8250,
+        "namaSupermarket": "FoodMart",
+        "kategori": "Seasoning",
+        "rating": 3
+    },
+    {
+        "fotoProduk": "./Assets/kecapmanis.png",
+        "namaProduk": "Kecap Manis",
+        "hargaProduk": 8600,
+        "namaSupermarket": "FoodMart",
+        "kategori": "Seasoning",
+        "rating": 5
+    },
+    {
+        "fotoProduk": "./Assets/beraspremium.png",
+        "namaProduk": "Beras Premium",
+        "hargaProduk": 62000,
+        "namaSupermarket": "Indomaret Fresh",
+        "kategori": "Seasoning",
+        "rating": 5
+    },
+    {
+        "fotoProduk": "./Assets/minyakgoreng.png",
+        "namaProduk": "Minyak Goreng",
+        "hargaProduk": 25500,
+        "namaSupermarket": "Indomaret Fresh",
+        "kategori": "Seasoning",
+        "rating": 4
+    },
+    {
+        "fotoProduk": "./Assets/gulapasir.png",
+        "namaProduk": "Gula Pasir",
+        "hargaProduk": 13000,
+        "namaSupermarket": "Indomaret Fresh",
+        "kategori": "Seasoning",
+        "rating": 4
+    },
+    {
+        "fotoProduk": "./Assets/garam.png",
+        "namaProduk": "Garam",
+        "hargaProduk": 5000,
+        "namaSupermarket": "Indomaret Fresh",
+        "kategori": "Seasoning",
+        "rating": 3
+    },
+    {
+        "fotoProduk": "./Assets/ladahitam.png",
+        "namaProduk": "Lada Hitam",
+        "hargaProduk": 8500,
+        "namaSupermarket": "Indomaret Fresh",
+        "kategori": "Seasoning",
+        "rating": 5
+    },
+    {
+        "fotoProduk": "./Assets/kecapmanis.png",
+        "namaProduk": "Kecap Manis",
+        "hargaProduk": 8700,
+        "namaSupermarket": "Indomaret Fresh",
+        "kategori": "Seasoning",
+        "rating": 2
+    },    
+    {
+        "fotoProduk": "./Assets/Apel.png",
+        "namaProduk": "Apel Fuji",
+        "hargaProduk": 52000,
+        "namaSupermarket": "Duta Buah",
+        "kategori": "Fruit&Veggie",
+        "rating": 3
+    },
+    {
+        "fotoProduk": "./Assets/jeruksunkist.png",
+        "namaProduk": "Jeruk Sunkist",
+        "hargaProduk": 47000,
+        "namaSupermarket": "Duta Buah",
+        "kategori": "Fruit&Veggie",
+        "rating": 4
+    },
+    {
+        "fotoProduk": "./Assets/pisang.png",
+        "namaProduk": "Pisang Cavendish",
+        "hargaProduk": 32000,
+        "namaSupermarket": "Duta Buah",
+        "kategori": "Fruit&Veggie",
+        "rating": 5
+    },
+    {
+        "fotoProduk": "./Assets/mangga.png",
+        "namaProduk": "Mangga Harum Manis",
+        "hargaProduk": 42000,
+        "namaSupermarket": "Duta Buah",
+        "kategori": "Fruit&Veggie",
+        "rating": 5
+    },
+    {
+        "fotoProduk": "./Assets/anggurmerah.png",
+        "namaProduk": "Anggur Merah",
+        "hargaProduk": 57000,
+        "namaSupermarket": "Duta Buah",
+        "kategori": "Fruit&Veggie",
+        "rating": 3
+    },
+    {
+        "fotoProduk": "./Assets/Apel.png",
+        "namaProduk": "Apel Fuji",
+        "hargaProduk": 53000,
+        "namaSupermarket": "Aeon",
+        "kategori": "Fruit&Veggie",
+        "rating": 4
+    },
+    {
+        "fotoProduk": "./Assets/jeruksunkist.png",
+        "namaProduk": "Jeruk Sunkist",
+        "hargaProduk": 48000,
+        "namaSupermarket": "Aeon",
+        "kategori": "Fruit&Veggie",
+        "rating": 5
+    },
+    {
+        "fotoProduk": "./Assets/pisang.png",
+        "namaProduk": "Pisang Cavendish",
+        "hargaProduk": 33000,
+        "namaSupermarket": "Aeon",
+        "kategori": "Fruit&Veggie",
+        "rating": 3
+    },
+    {
+        "fotoProduk": "./Assets/mangga.png",
+        "namaProduk": "Mangga Harum Manis",
+        "hargaProduk": 43000,
+        "namaSupermarket": "Aeon",
+        "kategori": "Fruit&Veggie",
+        "rating": 4
+    },
+    {
+        "fotoProduk": "./Assets/anggurmerah.png",
+        "namaProduk": "Anggur Merah",
+        "hargaProduk": 58000,
+        "namaSupermarket": "Aeon",
+        "kategori": "Fruit&Veggie",
+        "rating": 5
+    },
+    {
+        "fotoProduk": "./Assets/Apel.png",
+        "namaProduk": "Apel Fuji",
+        "hargaProduk": 51000,
+        "namaSupermarket": "FoodMart",
+        "kategori": "Fruit&Veggie",
+        "rating": 3
+    },
+    {
+        "fotoProduk": "./Assets/jeruksunkist.png",
+        "namaProduk": "Jeruk Sunkist",
+        "hargaProduk": 46000,
+        "namaSupermarket": "FoodMart",
+        "kategori": "Fruit&Veggie",
+        "rating": 4
+    },
+    {
+        "fotoProduk": "./Assets/pisang.png",
+        "namaProduk": "Pisang Cavendish",
+        "hargaProduk": 31000,
+        "namaSupermarket": "FoodMart",
+        "kategori": "Fruit&Veggie",
+        "rating": 5
+    },
+    {
+        "fotoProduk": "./Assets/mangga.png",
+        "namaProduk": "Mangga Harum Manis",
+        "hargaProduk": 41000,
+        "namaSupermarket": "FoodMart",
+        "kategori": "Fruit&Veggie",
+        "rating": 3
+    },
+    {
+        "fotoProduk": "./Assets/anggurmerah.png",
+        "namaProduk": "Anggur Merah",
+        "hargaProduk": 56000,
+        "namaSupermarket": "FoodMart",
+        "kategori": "Fruit&Veggie",
+        "rating": 4
+    },
+    {
+        "fotoProduk": "./Assets/Apel.png",
+        "namaProduk": "Apel Fuji",
+        "hargaProduk": 50000,
+        "namaSupermarket": "Indomaret Fresh",
+        "kategori": "Fruit&Veggie",
+        "rating": 5
+    },
+    {
+        "fotoProduk": "./Assets/jeruksunkist.png",
+        "namaProduk": "Jeruk Sunkist",
+        "hargaProduk": 45000,
+        "namaSupermarket": "Indomaret Fresh",
+        "kategori": "Fruit&Veggie",
+        "rating": 5
+    },
+    {
+        "fotoProduk": "./Assets/pisang.png",
+        "namaProduk": "Pisang Cavendish",
+        "hargaProduk": 33000,
+        "namaSupermarket": "Indomaret Fresh",
+        "kategori": "Fruit&Veggie",
+        "rating": 4
+    },
+    {
+        "fotoProduk": "./Assets/mangga.png",
+        "namaProduk": "Mangga Harum Manis",
+        "hargaProduk": 40000,
+        "namaSupermarket": "Indomaret Fresh",
+        "kategori": "Fruit&Veggie",
+        "rating": 3
+    },
+    {
+        "fotoProduk": "./Assets/anggurmerah.png",
+        "namaProduk": "Anggur Merah",
+        "hargaProduk": 58000,
+        "namaSupermarket": "Indomaret Fresh",
+        "kategori": "Fruit&Veggie",
+        "rating": 5
+    },
+    {
+        "fotoProduk": "./Assets/PembersihKaca.png",
+        "namaProduk": "Pembersih Kaca",
+        "hargaProduk": 28000,
+        "namaSupermarket": "Indomaret",
+        "kategori": "Household Cleaning",
+        "rating": 4
+    },
+    {
+        "fotoProduk": "./Assets/Sabuncucipiring.png",
+        "namaProduk": "Sabun Cuci Piring",
+        "hargaProduk": 19000,
+        "namaSupermarket": "Indomaret",
+        "kategori": "Household Cleaning",
+        "rating": 3
+    },
+    {
+        "fotoProduk": "./Assets/PembersihLantai.png",
+        "namaProduk": "Pembersih Lantai",
+        "hargaProduk": 16000,
+        "namaSupermarket": "Indomaret",
+        "kategori": "Household Cleaning",
+        "rating": 4
+    },
+    {
+        "fotoProduk": "./Assets/PemutihPakaian.png",
+        "namaProduk": "Pemutih Pakaian",
+        "hargaProduk": 18000,
+        "namaSupermarket": "Indomaret",
+        "kategori": "Household Cleaning",
+        "rating": 5
+    },
+    {
+        "fotoProduk": "./Assets/PewangiRuangan.png",
+        "namaProduk": "Pewangi Ruangan",
+        "hargaProduk": 21000,
+        "namaSupermarket": "Indomaret",
+        "kategori": "Household Cleaning",
+        "rating": 4
+    },
+    {
+        "fotoProduk": "./Assets/PembersihKaca.png",
+        "namaProduk": "Pembersih Kaca",
+        "hargaProduk": 30000,
+        "namaSupermarket": "Aeon",
+        "kategori": "Household Cleaning",
+        "rating": 4
+    },
+    {
+        "fotoProduk": "./Assets/Sabuncucipiring.png",
+        "namaProduk": "Sabun Cuci Piring",
+        "hargaProduk": 20000,
+        "namaSupermarket": "Aeon",
+        "kategori": "Household Cleaning",
+        "rating": 3
+    },
+    {
+        "fotoProduk": "./Assets/PembersihLantai.png",
+        "namaProduk": "Pembersih Lantai",
+        "hargaProduk": 17000,
+        "namaSupermarket": "Aeon",
+        "kategori": "Household Cleaning",
+        "rating": 4
+    },
+    {
+        "fotoProduk": "./Assets/PemutihPakaian.png",
+        "namaProduk": "Pemutih Pakaian",
+        "hargaProduk": 19000,
+        "namaSupermarket": "Aeon",
+        "kategori": "Household Cleaning",
+        "rating": 5
+    },
+    {
+        "fotoProduk": "./Assets/PewangiRuangan.png",
+        "namaProduk": "Pewangi Ruangan",
+        "hargaProduk": 22000,
+        "namaSupermarket": "Aeon",
+        "kategori": "Household Cleaning",
+        "rating": 4
+    },
+    {
+        "fotoProduk": "./Assets/PembersihKaca.png",
+        "namaProduk": "Pembersih Kaca",
+        "hargaProduk": 32000,
+        "namaSupermarket": "Hypermart",
+        "kategori": "Household Cleaning",
+        "rating": 5
+    },
+    {
+        "fotoProduk": "./Assets/Sabuncucipiring.png",
+        "namaProduk": "Sabun Cuci Piring",
+        "hargaProduk": 21000,
+        "namaSupermarket": "Hypermart",
+        "kategori": "Household Cleaning",
+        "rating": 4
+    },
+    {
+        "fotoProduk": "./Assets/PembersihLantai.png",
+        "namaProduk": "Pembersih Lantai",
+        "hargaProduk": 18000,
+        "namaSupermarket": "Hypermart",
+        "kategori": "Household Cleaning",
+        "rating": 3
+    },
+    {
+        "fotoProduk": "./Assets/PemutihPakaian.png",
+        "namaProduk": "Pemutih Pakaian",
+        "hargaProduk": 19500,
+        "namaSupermarket": "Hypermart",
+        "kategori": "Household Cleaning",
+        "rating": 5
+    },
+    {
+        "fotoProduk": "./Assets/PewangiRuangan.png",
+        "namaProduk": "Pewangi Ruangan",
+        "hargaProduk": 23000,
+        "namaSupermarket": "Hypermart",
+        "kategori": "Household Cleaning",
+        "rating": 3
+    },
+    {
+        "fotoProduk": "./Assets/Airmineral.png",
+        "namaProduk": "Air Mineral",
+        "hargaProduk": 5500,
+        "namaSupermarket": "Indomaret Fresh",
+        "kategori": "Drinks",
+        "rating": 3
+    },
+    {
+        "fotoProduk": "./Assets/Tehbotolsosro.png",
+        "namaProduk": "Teh Botol Sosro",
+        "hargaProduk": 7500,
+        "namaSupermarket": "Indomaret Fresh",
+        "kategori": "Drinks",
+        "rating": 5
+    },
+    {
+        "fotoProduk": "./Assets/KopiInstan.png",
+        "namaProduk": "Kopi Instan",
+        "hargaProduk": 16000,
+        "namaSupermarket": "Indomaret Fresh",
+        "kategori": "Drinks",
+        "rating": 5
+    },
+    {
+        "fotoProduk": "./Assets/SusuUHT.png",
+        "namaProduk": "Susu UHT",
+        "hargaProduk": 19000,
+        "namaSupermarket": "Indomaret Fresh",
+        "kategori": "Drinks",
+        "rating": 3
+    },
+    {
+        "fotoProduk": "./Assets/YouC1000.png",
+        "namaProduk": "You C1000",
+        "hargaProduk": 11000,
+        "namaSupermarket": "Indomaret Fresh",
+        "kategori": "Drinks",
+        "rating": 4
+    },
+    {
+        "fotoProduk": "./Assets/Airmineral.png",
+        "namaProduk": "Air Mineral",
+        "hargaProduk": 5700,
+        "namaSupermarket": "Aeon",
+        "kategori": "Drinks",
+        "rating": 4
+    },
+    {
+        "fotoProduk": "./Assets/Tehbotolsosro.png",
+        "namaProduk": "Teh Botol Sosro",
+        "hargaProduk": 8000,
+        "namaSupermarket": "Aeon",
+        "kategori": "Drinks",
+        "rating": 5
+    },
+    {
+        "fotoProduk": "./Assets/KopiInstan.png",
+        "namaProduk": "Kopi Instan",
+        "hargaProduk": 16500,
+        "namaSupermarket": "Aeon",
+        "kategori": "Drinks",
+        "rating": 4
+    },
+    {
+        "fotoProduk": "./Assets/SusuUHT.png",
+        "namaProduk": "Susu UHT",
+        "hargaProduk": 19500,
+        "namaSupermarket": "Aeon",
+        "kategori": "Drinks",
+        "rating": 3
+    },
+    {
+        "fotoProduk": "./Assets/YouC1000.png",
+        "namaProduk": "You C1000",
+        "hargaProduk": 11500,
+        "namaSupermarket": "Aeon",
+        "kategori": "Drinks",
+        "rating": 5
+    },
+    {
+        "fotoProduk": "./Assets/Airmineral.png",
+        "namaProduk": "Air Mineral",
+        "hargaProduk": 5600,
+        "namaSupermarket": "FoodMart",
+        "kategori": "Drinks",
+        "rating": 3
+    },
+    {
+        "fotoProduk": "./Assets/Tehbotolsosro.png",
+        "namaProduk": "Teh Botol Sosro",
+        "hargaProduk": 7800,
+        "namaSupermarket": "FoodMart",
+        "kategori": "Drinks",
+        "rating": 4
+    },
+    {
+        "fotoProduk": "./Assets/KopiInstan.png",
+        "namaProduk": "Kopi Instan",
+        "hargaProduk": 16200,
+        "namaSupermarket": "FoodMart",
+        "kategori": "Drinks",
+        "rating": 5
+    },
+    {
+        "fotoProduk": "./Assets/SusuUHT.png",
+        "namaProduk": "Susu UTH",
+        "hargaProduk": 19200,
+        "namaSupermarket": "FoodMart",
+        "kategori": "Drinks",
+        "rating": 4
+    },
+    {
+        "fotoProduk": "./Assets/YouC1000.png",
+        "namaProduk": "You C1000",
+        "hargaProduk": 11200,
+        "namaSupermarket": "FoodMart",
+        "kategori": "Drinks",
+        "rating": 3
+    },
+    {
+        "fotoProduk": "./Assets/SusuUHT.png",
+        "namaProduk": "Susu UHT",
+        "hargaProduk": 16000,
+        "namaSupermarket": "Lawson",
+        "kategori": "Drinks",
+        "rating": 3
+    },
+    {
+        "fotoProduk": "https://via.placeholder.com/150",
+        "namaProduk": "Jus Jeruk",
+        "hargaProduk": 21000,
+        "namaSupermarket": "Lawson",
+        "kategori": "Drinks",
+        "rating": 5
+    },
+    {
+        "fotoProduk": "https://via.placeholder.com/150",
+        "namaProduk": "Air Kelapa",
+        "hargaProduk": 13000,
+        "namaSupermarket": "Lawson",
+        "kategori": "Drinks",
+        "rating": 3
+    },
+    {
+        "fotoProduk": "https://via.placeholder.com/150",
+        "namaProduk": "Teh Hijau",
+        "hargaProduk": 16000,
+        "namaSupermarket": "Lawson",
+        "kategori": "Drinks",
+        "rating": 4
+    },
+    {
+        "fotoProduk": "https://via.placeholder.com/150",
+        "namaProduk": "Smoothie Mangga",
+        "hargaProduk": 26000,
+        "namaSupermarket": "Lawson",
+        "kategori": "Drinks",
+        "rating": 5
+    }
+]

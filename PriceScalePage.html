@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BUDGETMART</title>
+    <link rel="icon" href="./Assets/PP.png" type="image/png">
+    <link rel="stylesheet" href="./CSS/PriceScalePage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="HeaderLogo">
+            <img src="./Assets/Logo(2).png" alt="">
+        </div>
+        <div class="HeaderDetail">
+            <div class="HeaderNav">
+                <div class="NavUser">
+                    <h1>Hi, Member!</h1>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="">History</a></li>
+                        <li><a href="PriceScalePage.html">Price Scale</a></li>
+                        <li><a href="">Product List</a></li>
+                        <li><a href="FeedbackPage.html">FeedBack</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="HeaderSearch">
+                <div class="SearchBox">
+                    <div class="SearchPic">
+                        <img src="./Assets/search.png" alt="">
+                    </div>
+                    <div class="SearchText">
+                        <input type="text" id="searchInput" placeholder="Search Product">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="HeaderProfile">
+            <div class="ProfileShopping">
+                <a href="ShoppingCartPage.html">
+                    <img src="./Assets/Cart.png" alt="">
+                </a>
+            </div>
+            <div class="ProfileBox">
+                <div class="ProfileText">
+                    <h4>My Account</h4>
+                </div>
+                <div class="ProfilePic">
+                    <img src="./Assets/Proifle pict.png" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="ScaleHeader">
+            <h1>Price Scale</h1>
+        </div>
+        <div class="ScaleDetail">
+            <div class="ScaleWishlist" >
+                <div class="WishTitle">
+                    <h4>Wishlist</h4>
+                </div>
+                <ul id="wishlist">
+                    <!-- Disini bakal dimasukkin produk yang dipilih waktu di shopping cart untuk di compare -->
+                </ul>
+            </div>
+            <div class="ScaleSupermarket" id="supermarket">
+                <div class="ScaleTable">
+                    <div class="ScaleChoose">
+                        <div class="ChooseTitle">
+                            <h1>Pilih Supermarket:</h1>
+                        </div>
+                        <div class="SupermarketDropDown">
+                            <select id="supermarket-dropdown"></select>
+                        </div>
+                        <div class="SupermarketButton">
+                            <button class="PriceButton" onclick="scalePrice()">
+                                ScalePrice
+                            </button>
+                        </div>
+                    </div>
+                    <div class="ComparisonContainer">
+                        <table id="comparison-table">
+                            <thead>
+                                <tr>
+                                    <th>Produk</th>
+                                    <th>Gambar</th>
+                                    <th>Supermarket Asal</th>
+                                    <th>Harga Asal</th>
+                                    <th>Supermarket Pembanding</th>
+                                    <th>Harga Pembanding</th>
+                                    <th>Lebih Murah/Mahal</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!-- Comparison results will be dynamically added here -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="ScaleButton">
+                    <div class="ScaleSet">
+                        <div class="ScaleReset">
+                            <button class="Reset" onclick="resetScale()">
+                                Reset
+                            </button>
+                        </div>
+                        <div class="ScaleReplaceBest">
+                            <button class="ReplaceBest" onclick="replaceBest()">
+                                Replace Best
+                            </button>
+                        </div>
+                        <div class="ScaleReplaceAll">
+                            <button class="ReplaceAll" onclick="replaceAll()">
+                                Replace All
+                            </button>
+                        </div>
+                    </div>
+                    <div class="ProductReady">
+                        <button class="CheckOut" onclick="checkout()">
+                            CheckOut
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="FootBox">
+            <div class="FootDesc">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis consectetur ipsum veritatis assumenda praesentium vitae omnis error, possimus magni natus modi quos eius! Dolores adipisci perferendis delectus necessitatibus, repudiandae dolor!</p>
+            </div>
+            <div class="FootContact">
+                <div class="ContactContainer">
+                    <div class="ContactTitle">
+                        <h1>Company</h1>
+                    </div>
+                    <div class="ContactDetail">
+                        <ul>
+                            <li>About Us</li>
+                            <li>Our Services</li>
+                            <li>Our Credibility</li>
+                            <li>Our Appreciation</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="ContactContainer">
+                    <div class="ContactTitle">
+                        <h1>Features</h1>
+                    </div>
+                    <div class="ContactDetail">
+                        <ul>
+                            <li>Shopping Planning</li>
+                            <li>Price Comparison</li>
+                            <li>Instant Transactions</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="ContactContainer">
+                    <div class="ContactTitle">
+                        <h1>Support</h1>
+                    </div>
+                    <div class="ContactDetail">
+                        <ul>
+                            <li>FAQ</li>
+                            <li>Service Center</li>
+                            <li>Settings</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="ContactContainer">
+                    <div class="ContactTitle">
+                        <h1>Contact Info</h1>
+                    </div>
+                    <div class="ContactDetail">
+                        <ul>
+                            <li>(+62) 812 3456 7890</li>
+                            <li>budgetmart@gmail.com</li>
+                            <li>Lorem ipsum dolor sit amet</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="FootEnd">
+            <p>&copy; 2024 Supermarket. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="./JS/PriceScalePage.js"></script>
+</body>
+</html>

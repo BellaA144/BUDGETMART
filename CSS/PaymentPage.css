@@ -1,0 +1,554 @@
+*{
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #D5F0E6;
+}
+
+.hyperlink{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.hyperlink:hover{
+    color: rgb(49, 44, 44);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 12vh;
+    background-color: #fefefeee;
+}
+
+.HeaderLogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10vw;
+    height: 12vh;
+}
+
+.HeaderLogo img{
+    max-width: 90%;
+    max-height: 90%;
+}
+
+.HeaderDetail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 65vw;
+    height: 12vh;
+}
+
+.HeaderNav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 65vw;
+    height: 5vh;
+}
+
+.NavUser{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10vw;
+    height: 4vh;
+}
+
+.NavUser h1{
+    font-size: 1.5em;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    list-style: none;
+    width: 50vw;
+    height: 4vh;
+}
+
+nav ul li{
+    padding-right: 1.5vw;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.HeaderSearch{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 65vw;
+    height: 7vh;
+}
+
+.SearchBox{
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    width: 63vw;
+    height: 5vh;
+    border: 2px solid #05050550;
+    border-radius: 6px;
+    box-shadow: 0 4px 6px rgb(0,0,0,0.2);
+}
+
+.SearchPic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3vw;
+    height: 3vh;
+}
+
+.SearchPic img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.SearchText{
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    padding-left: 15px;
+    width: 59vw;
+    height: 7vh;
+}
+
+.SearchText input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    background: none;
+    font-size: 1em;
+    opacity: 50%;
+}
+
+.SearchText input:focus {
+    outline: none;
+    opacity: 100%;
+}
+
+.HeaderProfile{
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    width: 23vw;
+    height: 12vh;
+}
+
+.ProfileShopping{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 7vw;
+    height: 10vh;
+    border-right: 2px solid black;
+}
+
+.ProfileShopping img{
+    max-width: 65%;
+    max-height: 50%;
+}
+
+.ProfileBox{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 15vw;
+    height: 10vh;
+}
+
+.ProfileText{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 7vw;
+    height: 10vh;
+}
+
+.ProfilePic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 5vw;
+    height: 10vh;
+}
+
+.ProfilePic img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    padding: 20px 0;
+}
+
+.TransactionBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: baseline;
+    width: 90vw;
+    height: 170vh;
+    border-radius: 20px;
+    padding: 20px 0;
+    background-color: #f1f1f1f1;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.TransactionHeader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20vw;
+    height: 10vh;
+}
+
+.TransactionInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: baseline;
+    width: 85vw;
+    height: 45vh;
+}
+
+.InfoHeader{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+    width: 50vw;
+    height: 8vh;
+    padding-left: 20px;
+}
+
+.InfoHeader h1{
+    font-size: 1.5em;
+}
+
+.InfoDetail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: baseline;
+    width: 85vw;
+    height: 35vh;
+    /* background-color: #2EB484; */
+}
+
+.InfoShip{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: baseline;
+    width: 80vw;
+    height: 10vh;
+    /* background-color: #2EB484; */
+}
+
+.ShipHeader{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+    width: 30vw;
+    height: 5vh;
+}
+
+.ShipHeader h4{
+    color: #6c6c6c;
+    font-size: 1em;
+}
+
+.ShipDetail{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: baseline;
+    width: 80vw;
+    height: 6vh;
+}
+
+#recipienttxt{
+    background-color: #fefefeee;
+    border: 2px solid #b2b2b2;
+    border-radius: 5px;
+    outline: none;
+    font-size: 1em;
+    width: 80vw;
+    height: 4vh;
+    padding-left: 10px;
+}
+
+#phonenumbertxt{
+    background-color: #fefefeee;
+    border: 2px solid #b2b2b2;
+    border-radius: 5px;
+    outline: none;
+    font-size: 1em;
+    width: 80vw;
+    height: 4vh;
+    padding-left: 10px;
+}
+
+#addresstxt{
+    background-color: #fefefeee;
+    border: 2px solid #b2b2b2;
+    border-radius: 5px;
+    outline: none;
+    font-size: 1em;
+    width: 80vw;
+    height: 10vh;
+    padding-left: 10px;
+}
+
+.DisplayProducts{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: baseline;
+    width: 80vw;
+    /* height: 55vh; */
+    padding-bottom: 20px;
+}
+
+.DisplayHeader{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+    width: 30vw;
+    height: 6vh;
+    /* background-color: #2EB484; */
+}
+
+.DisplayHeader h1{
+    font-size: 1.5em;
+}
+
+.ProductList{
+    width: 100%;
+    overflow-y: auto;
+    max-height: 40vh;
+}
+
+#product-display{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+thead{
+    position: sticky;
+    top: 0;
+    background-color: #fff; /* Atur warna latar belakang sesuai kebutuhan */
+    z-index: 1000; /* Atur z-index agar tetap di atas konten */
+}
+
+#product-display th, #product-display td{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#product-display th{
+    background-color: #f4f4f4;
+}
+
+.SummaryTransaction{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: baseline;
+    width: 80vw;
+    height: 60vh;
+    border-radius: 10px;
+    background-color: #d5d5d5;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.SummaryHeader{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    width: 17vw;
+    height: 8vh;
+}
+
+.SummaryPerk{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+    width: 80vw;
+    height: 12vh;
+}
+
+.PerkHeader{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 16.5vw;
+    height: 5vh;
+    color: #6c6c6c;
+}
+
+.PerkDetail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
+    height: 7vh;
+    padding: 0 20px;
+}
+
+.SummaryResult{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: end;
+    padding: 0 30px;
+    width: 50vw;
+    height: 20vh;
+    line-height: 20px;
+}
+
+#deliver-dropdown{
+    outline: none;
+    width: 75vw;
+    height: 6vh;
+}
+
+#voucher-dropdown{
+    outline: none;
+    width: 75vw;
+    height: 6vh;
+}
+
+.SummaryButton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    width: 80vw;
+    height: 10vh;
+    outline: none;
+}
+
+.SButton{
+    width: 65vw;
+    height: 7vh;
+    color: #f4f4f4;
+    font-size: 1.2em;
+    background-color: #2EB484;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.SButton:active{
+    background-color: #228B67;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 100vw;
+    height: 40vh;
+    background-color: #2EB484;
+}
+
+.FootBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 90vw;
+    height: 35vh;
+    border-bottom: 2px solid rgb(6, 6, 6);
+}
+
+.FootDesc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    padding: 15px;
+    width: 20vw;
+    height: 30vh;
+}   
+
+.FootContact{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 65vw;
+    height: 30vh;
+}
+
+.ContactContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 15vw;
+    height: 28vh;
+}
+
+.ContactTitle{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: end;
+    width: 12vw;
+    height: 7vh;
+}
+
+.ContactTitle h1{
+    font-size: 1.4em;
+}
+
+.ContactDetail ul{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: baseline;
+    list-style: none;
+    width: 12vw;
+    height: 15vh;
+}
+
+.ContactDetail li{
+    margin-top: 12px;
+    font-size: 1em;
+}
+
+.FootEnd{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    height: 5vh;
+}

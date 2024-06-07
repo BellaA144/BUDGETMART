@@ -1,0 +1,86 @@
+[
+  {
+    "user": "Luna Adira",
+    "email": "lunaadira@gmail.com",
+    "password": "luna123",
+    "mobile-phone": "081234567890",
+    "role": "user"
+  },
+  {
+    "user": "Pero Dinata",
+    "email": "perodinata@gmail.com",
+    "password": "pero123",
+    "mobile-phone": "081258764536",
+    "role": "user"
+  },
+  {
+    "user": "Qulia lie",
+    "email": "qulialie@gmail.com",
+    "password": "qulia123",
+    "mobile-phone": "085694629573",
+    "role": "user"
+  },
+  {
+    "user": "BellaA",
+    "email": "bella@gmail.com",
+    "password": "bella123",
+    "mobile-phone": "081234567890",
+    "role": "admin"
+  },
+  {
+    "user": "Gani",
+    "email": "gani@gmail.com",
+    "password": "gani123",
+    "mobile-phone": "081258764536",
+    "role": "admin"
+  },
+  {
+    "user": "William",
+    "email": "william@gmail.com",
+    "password": "william123",
+    "mobile-phone": "085694629573",
+    "role": "admin"
+  },
+  {
+    "user": "Azka",
+    "email": "azka@gmail.com",
+    "password": "azka123",
+    "mobile-phone": "081234567890",
+    "role": "admin"
+  },
+  {
+    "user": "Alif",
+    "email": "alif@gmail.com",
+    "password": "alif123",
+    "mobile-phone": "081258764536",
+    "role": "admin"
+  },
+  {
+    "user": "Elrico",
+    "email": "elrico@gmail.com",
+    "password": "elrico123",
+    "mobile-phone": "085694629573",
+    "role": "admin"
+  },
+  {
+    "user": "Bebel",
+    "password": "bebel123",
+    "email": "bellaapries144@gmail.com",
+    "mobilephone": "081122334455",
+    "role": "user"
+  },
+  {
+    "user": "Neo",
+    "password": "alfani123",
+    "email": "neo@gmail.com",
+    "mobilephone": "081234657890",
+    "role": "user"
+  },
+  {
+    "user": "Habib",
+    "password": "habib123",
+    "email": "habib@gmail.com",
+    "mobilephone": "089087564312",
+    "role": "user"
+  }
+]

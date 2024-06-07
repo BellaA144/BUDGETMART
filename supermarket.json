@@ -1,0 +1,5 @@
+[
+    { "user":"Aeon Supermarket", "email": "aeonsupermarket@gmail.com", "password": "aeon123"},
+    { "user":"Duta Buah", "email": "dutabuah@gmail.com", "password": "duta123"},
+    { "user":"Foodmart", "email": "foodmart@gmail.com", "password": "food123"}
+]

@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BUDGETMART</title>
+    <link rel="icon" href="./Assets/PP.png" type="image/png">
+    <link rel="stylesheet" href="./CSS/PaymentPage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="HeaderLogo">
+            <img src="./Assets/Logo(2).png" alt="">
+        </div>
+        <div class="HeaderDetail">
+            <div class="HeaderNav">
+                <div class="NavUser">
+                    <h1>Hi, Member!</h1>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="">History</a></li>
+                        <li><a href="PriceScalePage.html">Price Scale</a></li>
+                        <li><a href="">Product List</a></li>
+                        <li><a href="FeedbackPage.html">FeedBack</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="HeaderSearch">
+                <div class="SearchBox">
+                    <div class="SearchPic">
+                        <img src="./Assets/search.png" alt="">
+                    </div>
+                    <div class="SearchText">
+                        <input type="text" id="searchInput" placeholder="Search Product">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="HeaderProfile">
+            <div class="ProfileShopping">
+                <a href="ShoppingCartPage.html">
+                    <img src="./Assets/Cart.png" alt="">
+                </a>
+            </div>
+            <div class="ProfileBox">
+                <div class="ProfileText">
+                    <h4>My Account</h4>
+                </div>
+                <div class="ProfilePic">
+                    <img src="./Assets/Proifle pict.png" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="TransactionBox">
+            <div class="TransactionHeader">
+                <h1>Transaction</h1>
+            </div>
+            <div class="TransactionInfo">
+                <div class="InfoHeader">
+                    <h1>Shipping Information:</h1>
+                </div>
+                <div class="InfoDetail">
+                    <div class="InfoShip">
+                        <div class="ShipHeader">
+                            <h4>Recipient's Name</h4>
+                        </div>
+                        <div class="ShipDetail">
+                            <input type="text" name="recipient" id="recipienttxt" required>
+                        </div>
+                    </div>
+                    <div class="InfoShip">
+                        <div class="ShipHeader">
+                            <h4>Phone Number</h4>
+                        </div>
+                        <div class="ShipDetail">
+                            <input type="text" name="phonenumber" id="phonenumbertxt" required>
+                        </div>
+                    </div>
+                    <div class="InfoShip">
+                        <div class="ShipHeader">
+                            <h4>Shipping Address</h4>
+                        </div>
+                        <div class="ShipDetail">
+                            <input type="text" name="address" id="addresstxt" required>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="DisplayProducts">
+                <div class="DisplayHeader">
+                    <h1>Products</h1>
+                </div>
+                <div class="ProductList">
+                    <table id="product-display">
+                        <thead>
+                            <tr>
+                                <th>Supermarket</th>
+                                <th>Produk</th>
+                                <th>Harga</th>
+                                <th>Jumlah</th>
+                                <th>Total</th>
+                                <th>Edit</th>
+                            </tr>
+                        </thead>
+                        <tbody id>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="SummaryTransaction">
+                <div class="SummaryHeader">
+                    <h1>Summary</h1>
+                </div>
+                <div class="SummaryPerk">
+                    <div class="PerkHeader">
+                        <h4>Shipping Method:</h4>
+                    </div>
+                    <div class="PerkDetail">
+                        <select id="deliver-dropdown" required></select>
+                    </div>
+                </div>
+                <div class="SummaryPerk">
+                    <div class="PerkHeader">
+                        <h4>Choose Voucher:</h4>
+                    </div>
+                    <div class="PerkDetail">
+                        <select id="voucher-dropdown"></select>
+                    </div>
+                </div>
+                <div class="SummaryResult">
+                    <p>Total Items: <span id="total-items">0</span></p>
+                    <p>Total Price: <span id="total-price">0</span></p>
+                    <p>Biaya Pengiriman: <span id="shipping-cost">0</span></p>
+                    <p>Biaya Layanan: <span id="service-fee">1000</span></p>
+                    <p>Diskon: <span id="discount">0</span></p>
+                    <p>Total Keseluruhan: <span id="total-overall">0</span></p>
+                </div>
+            </div>
+            <div class="SummaryButton">
+                <button class="SButton" onclick="summaryResult()">
+                    Proceed to CheckOut
+                </button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="FootBox">
+            <div class="FootDesc">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis consectetur ipsum veritatis assumenda praesentium vitae omnis error, possimus magni natus modi quos eius! Dolores adipisci perferendis delectus necessitatibus, repudiandae dolor!</p>
+            </div>
+            <div class="FootContact">
+                <div class="ContactContainer">
+                    <div class="ContactTitle">
+                        <h1>Company</h1>
+                    </div>
+                    <div class="ContactDetail">
+                        <ul>
+                            <li>About Us</li>
+                            <li>Our Services</li>
+                            <li>Our Credibility</li>
+                            <li>Our Appreciation</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="ContactContainer">
+                    <div class="ContactTitle">
+                        <h1>Features</h1>
+                    </div>
+                    <div class="ContactDetail">
+                        <ul>
+                            <li>Shopping Planning</li>
+                            <li>Price Comparison</li>
+                            <li>Instant Transactions</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="ContactContainer">
+                    <div class="ContactTitle">
+                        <h1>Support</h1>
+                    </div>
+                    <div class="ContactDetail">
+                        <ul>
+                            <li>FAQ</li>
+                            <li>Service Center</li>
+                            <li>Settings</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="ContactContainer">
+                    <div class="ContactTitle">
+                        <h1>Contact Info</h1>
+                    </div>
+                    <div class="ContactDetail">
+                        <ul>
+                            <li>(+62) 812 3456 7890</li>
+                            <li>budgetmart@gmail.com</li>
+                            <li>Lorem ipsum dolor sit amet</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="FootEnd">
+            <p>&copy; 2024 Supermarket. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="/JS/PaymentPage.js"></script>
+</body>
+</html>

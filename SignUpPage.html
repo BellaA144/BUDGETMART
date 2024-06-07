@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BUDGETMART</title>
+    <link rel="icon" href="./Assets/PP.png" type="image/png">
+    <link rel="stylesheet" href="./CSS/SignUpPage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div class="SignUpMain">
+        <div class="SignLeft">
+            <div class="SignLup">
+                <div class="SignTitle">
+                    <h1>Buying Stuff with BUDGETMART</h1>
+                </div>
+            </div>
+            <div class="SignLdown">
+                <div class="SignDesc">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci saepe harum recusandae autem, odit doloremque reiciendis magni maxime sunt voluptas quos officiis et, officia ex architecto error eius amet magnam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci saepe harum recusandae autem, odit doloremque reiciendis magni maxime sunt voluptas quos officiis et, officia ex architecto error eius amet magnam.</p>
+                </div>
+            </div>
+        </div>
+        <div class="SignRight">
+            <div class="LogoLog">
+                <img src="./Assets/Logo(2).png" alt="">
+            </div>
+            <div class="BoxLogin">
+                <div class="TopBox">
+                    <h1>SIGN UP</h1>
+                </div>
+                <div class="FormBox">
+                    <form onsubmit="return validationCheck(event)" id="signupForm">
+                        <h3>Username</h3>
+                        <div class="Box">
+                            <input type="text" name="username" id="usernametxt" required>
+                        </div>
+                        <h3>Password</h3>
+                        <div class="Box">
+                            <input type="password" name="password" id="passwordtxt" required>
+                        </div>
+                        <h3>Email</h3>
+                        <div class="Box">
+                            <input type="text" name="Email" id="emailtxt" required>
+                        </div>
+                        <h3>Mobile Phone</h3>
+                        <div class="Box">
+                            <input type="text" name="mobilephone" id="mobilephonetxt" required>
+                        </div>
+                        <div class="ValidationBox">
+                            <button type="submit">
+                                <h4>Create an Account</h4>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                <div class="NoAccBox">
+                    <div class="AccLeft">
+                        <h4>Have an Account?</h4>
+                    </div>
+                    <div class="AccRight">
+                        <a href="LoginPage.html" class="hyperlink">
+                            <h4>Sign in Now</h4>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./JS/SignUpPage.js"></script>
+</body>
+</html>

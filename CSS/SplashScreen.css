@@ -1,0 +1,58 @@
+* {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f4f4f4;
+}
+
+.splashLayer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #D5F0E6;
+    transition: background-color 2s ease;
+}
+
+.splashLayer.hide-bg {
+    background-color: #f4f4f4;
+}
+
+.splashCircle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40vw;
+    height: 60vh;
+    background-color: #f4f4f4;
+    border-radius: 100%;
+}
+
+.splashCircle img {
+    max-width: 80%;
+    max-height: 80%;
+    transition: transform 2s ease;
+}
+
+.splashCircle.expand-img img {
+    transform: scale(1.2);
+}
+
+.fade-out {
+    animation: fadeOut 1s forwards;
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}

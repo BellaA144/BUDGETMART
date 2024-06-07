@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BUDGETMART</title>
+    <link rel="icon" href="./Assets/PP.png" type="image/png">
+    <link rel="stylesheet" href="./CSS/LoginPage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div class="LoginMain">
+        <div class="LoginLeft">
+            <div class="LogoLog">
+                <img src="./Assets/Logo(2).png" alt="">
+            </div>
+            <div class="BoxLogin">
+                <div class="TopBox">
+                    <h1>LOGIN</h1>
+                </div>
+                <div class="FormBox">
+                    <form onsubmit="return validationCheck()">
+                        <h3>Username or Email</h3>
+                        <div class="Box">
+                            <input type="text" name="username" id="usernametxt" required>
+                        </div>
+                        <h3>Password</h3>
+                        <div class="Box">
+                            <input type="password" name="password" id="passwordtxt" required>
+                        </div>
+                        <div class="ForgetPassBox">
+                            <h4>Forget Password?</h4>
+                        </div>
+                        <div class="ValidationBox">
+                            <button type="submit">
+                                <h4>Login</h4>
+                            </button>
+                        </div>
+                        <div class="NoAccBox">
+                            <div class="AccLeft">
+                                <h4>Still Not a Member?</h4>
+                            </div>
+                            <div class="AccRight">
+                                <a href="SignUpPage.html" class="hyperlink">
+                                    <h4>Create an Account</h4>
+                                </a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="LoginRight">
+            <div class="LoginText">
+                <h1>WELCOME BACK MY MEMBER</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis animi voluptate quas, debitis molestiae dolor dolorum dolore, quisquam repudiandae, adipisci laudantium? Magni porro perferendis temporibus mollitia tenetur pariatur voluptatum nisi.</p>
+            </div>
+        </div>
+    </div>
+    <script src="./JS/LoginPage.js"></script>
+</body>
+</html>

@@ -1,0 +1,543 @@
+*{
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #D5F0E6;
+}
+
+.hyperlink{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.hyperlink:hover{
+    color: rgb(49, 44, 44);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 12vh;
+    background-color: #fefefeee;
+}
+
+.HeaderLogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10vw;
+    height: 12vh;
+}
+
+.HeaderLogo img{
+    max-width: 90%;
+    max-height: 90%;
+}
+
+.HeaderDetail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 65vw;
+    height: 12vh;
+}
+
+.HeaderNav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 65vw;
+    height: 5vh;
+}
+
+.NavUser{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10vw;
+    height: 4vh;
+}
+
+.NavUser h1{
+    font-size: 1.5em;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    list-style: none;
+    width: 50vw;
+    height: 4vh;
+}
+
+nav ul li{
+    padding-right: 1.5vw;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.HeaderSearch{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 65vw;
+    height: 7vh;
+}
+
+.SearchBox{
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    width: 63vw;
+    height: 5vh;
+    border: 2px solid #05050550;
+    border-radius: 6px;
+    box-shadow: 0 4px 6px rgb(0,0,0,0.2);
+}
+
+.SearchPic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3vw;
+    height: 3vh;
+}
+
+.SearchPic img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.SearchText{
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    padding-left: 15px;
+    width: 59vw;
+    height: 7vh;
+}
+
+.SearchText input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    background: none;
+    font-size: 1em;
+    opacity: 50%;
+}
+
+.SearchText input:focus {
+    outline: none;
+    opacity: 100%;
+}
+
+.HeaderProfile{
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    width: 23vw;
+    height: 12vh;
+}
+
+.ProfileShopping{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 7vw;
+    height: 10vh;
+    border-right: 2px solid black;
+}
+
+.ProfileShopping img{
+    max-width: 65%;
+    max-height: 50%;
+}
+
+.ProfileBox{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 15vw;
+    height: 10vh;
+}
+
+.ProfileText{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 7vw;
+    height: 10vh;
+}
+
+.ProfilePic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 5vw;
+    height: 10vh;
+}
+
+.ProfilePic img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    padding: 20px 0;
+}
+
+.ScaleHeader{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 25vw;
+    height: 8vh;
+    border-radius: 20px;
+    background-color: #f5f3f36b;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.ScaleHeader h1{
+    font-size: 2em;
+}
+
+.ScaleDetail{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    width: 100vw;
+    height: 65vh;
+    padding: 10px;
+}
+
+.ScaleWishlist{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: baseline;
+    width: 20vw;
+    height: 60vh;
+}
+
+.WishTitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 10vw;
+    height: 6vh;
+}
+
+.WishTitle h4{
+    font-size: 1.5em;
+}
+
+#wishlist {
+    list-style-type: none; /* Hapus bullet points pada ul */
+    padding: 0; /* Hapus padding default pada ul */
+    margin: 0; /* Hapus margin default pada ul */
+    overflow-y: auto;
+    max-height: 50vh;
+}
+
+.productList{
+    display: flex;
+    width: 15vw;
+    padding: 5px;
+}
+
+.wishlist-item {
+    display: flex;
+    align-items: center;
+    /* margin-bottom: 10px; */
+}
+
+.wishlist-item img {
+    margin-right: 10px;
+}
+
+.product-details {
+    display: flex;
+    flex-direction: column; /* Jika Anda ingin menata dalam satu kolom */
+    margin-left: 5px;
+}
+
+/* Atur gaya text untuk tampil dalam satu baris jika diinginkan */
+.product-details span {
+    white-space: nowrap;
+}
+
+.ScaleSupermarket{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: baseline;
+    width: 75vw;
+    /* height: 60vh; */
+}
+
+.ScaleTable {
+    width: 100%;
+    margin: 20px 0;
+}
+
+.ScaleChoose {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.ChooseTitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15vw;
+    height: 5vh;
+}
+
+.ChooseTitle h1{
+    font-size: 1em;
+}
+
+.SupermarketDropDown {
+    flex-grow: 1;
+    margin: 0 10px;
+}
+
+#supermarket-dropdown {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.PriceButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.ComparisonContainer {
+    width: 100%;
+    overflow-y: auto;
+    max-height: 40vh;
+}
+
+#comparison-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+thead {
+    position: sticky;
+    top: 0;
+    background-color: #fff; /* Atur warna latar belakang sesuai kebutuhan */
+    z-index: 1000; /* Atur z-index agar tetap di atas konten */
+}
+
+#comparison-table th, #comparison-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#comparison-table th {
+    background-color: #f4f4f4;
+}
+
+.ScaleButton{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 75vw;
+    height: 10vh;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.ScaleSet{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 30vw;
+    height: 8vh;
+}
+
+.ScaleReset{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 16vw;
+    height: 8vh;
+}
+
+.ScaleReplaceBest{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 16vw;
+    height: 8vh;
+}
+
+.ScaleReplaceAll{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 16vw;
+    height: 8vh;
+}
+
+.Reset{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 8vw;
+    height: 4vh;
+    background-color: #6bdbb2;
+    border-radius: 5px;
+    border-color: #b3b3b3;
+}
+
+.ReplaceBest{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 8vw;
+    height: 4vh;
+    background-color: #6bdbb2;
+    border-radius: 5px;
+    border-color: #b3b3b3;
+}
+
+.ReplaceAll{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 8vw;
+    height: 4vh;
+    background-color: #6bdbb2;
+    border-radius: 5px;
+    border-color: #b3b3b3;
+}
+
+.ProductReady{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    width: 20vw;
+    height: 8vh;
+}
+
+.CheckOut{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 8vw;
+    height: 4vh;
+    background-color: #6bdbb2;
+    border-radius: 5px;
+    border-color: #b3b3b3;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 100vw;
+    height: 40vh;
+    background-color: #2EB484;
+}
+
+.FootBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 90vw;
+    height: 35vh;
+    border-bottom: 2px solid rgb(6, 6, 6);
+}
+
+.FootDesc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    padding: 15px;
+    width: 20vw;
+    height: 30vh;
+}   
+
+.FootContact{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 65vw;
+    height: 30vh;
+}
+
+.ContactContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 15vw;
+    height: 28vh;
+}
+
+.ContactTitle{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: end;
+    width: 12vw;
+    height: 7vh;
+}
+
+.ContactTitle h1{
+    font-size: 1.4em;
+}
+
+.ContactDetail ul{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: baseline;
+    list-style: none;
+    width: 12vw;
+    height: 15vh;
+}
+
+.ContactDetail li{
+    margin-top: 12px;
+    font-size: 1em;
+}
+
+
+.FootEnd{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    height: 5vh;
+}

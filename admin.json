@@ -1,0 +1,8 @@
+[
+    { "user":"BellaA", "email": "bella@gmail.com", "password": "bella123", "mobile-phone": "081234567890"},
+    { "user":"Gani", "email": "gani@gmail.com", "password": "gani123", "mobile-phone": "081258764536"},
+    { "user":"William", "email": "william@gmail.com", "password": "william123", "mobile-phone": "085694629573"},
+    { "user":"Azka", "email": "azka@gmail.com", "password": "azka123", "mobile-phone": "081234567890"},
+    { "user":"Alif", "email": "alif@gmail.com", "password": "alif123", "mobile-phone": "081258764536"},
+    { "user":"Elrico", "email": "elrico@gmail.com", "password": "elrico123", "mobile-phone": "085694629573"}
+]

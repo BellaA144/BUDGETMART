@@ -1,0 +1,227 @@
+* {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(138,228,195);
+    background: linear-gradient(180deg, rgba(158, 236, 208, 0.8) 0%, rgba(57,208,154,0.9) 60%, rgba(46,180,132,1) 100%);
+}
+
+.hyperlink{
+    text-decoration: none;
+}
+
+.hyperlink:hover{
+    color: rgb(49, 44, 44);
+}
+
+.LoginMain{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.LoginLeft{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    height: 100vh;
+    background-color: #fefefeee;
+    box-shadow: 5px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.LogoLog{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40vw;
+    height: 30vh;
+}
+
+.LogoLog img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.BoxLogin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 35vw;
+    height: 60vh;
+    background-color: rgb(138,228,195,0.5);
+    border-radius: 10%;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.TopBox{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 35vw;
+    height: 10vh;
+}
+
+.TopBox h1{
+    font-size: 1.5em;
+}
+
+.FormBox{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: baseline;
+    padding: 20px;
+    width: 30vw;
+    height: 50vh;
+    /* margin-left: 10px; */
+}
+
+.Box{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+
+#usernametxt{
+    background-color: #fefefeee;
+    border: 2px solid #0e0e0e;
+    border-radius: 10px;
+    outline: none;
+    font-size: 1em;
+    width: 25vw;
+    height: 5vh;
+    padding-left: 10px;
+}
+
+#passwordtxt{
+    background-color: #fefefeee;
+    border: 2px solid #0e0e0e;
+    border-radius: 10px;
+    outline: none;
+    font-size: 1em;
+    width: 25vw;
+    height: 5vh;
+    padding-left: 10px;
+}
+
+.ForgetPassBox{
+    display: flex;
+    align-items: baseline;
+    justify-content: end;
+    width: 24vw;
+    height: 3vh;
+}
+
+.ForgetPassBox h4{
+    font-size: 1em;
+    color: #3abf91;
+    font-style: oblique;
+}
+
+.ValidationBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 25vw;
+    height: 10vh;
+    margin-bottom: 10px;
+}
+
+.ValidationBox button{
+    background-color: #2EB484;
+    outline: none;
+    border: none;
+    color: #fefefeee;
+    border-radius: 20px;
+    width: 20vw;
+    height: 6vh;
+}
+
+.NoAccBox{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    width: 30vw;
+    height: 3vh;
+}
+
+.AccLeft{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 13vw;
+    height: 3vh;
+}
+
+.AccLeft h4{
+    font-size: 1em;
+}
+
+.AccRight{
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    width: 15vw;
+    height: 3vh;
+}
+
+.AccRight h4{
+    font-size: 1em;
+    color: #2EB484;
+}
+
+.LoginRight{
+    background-image: url('/Assets/Bg1.png');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    height: 100vh;
+}
+
+.LoginText{
+    text-align: justify;
+    width: 35vw;
+    height: 25vh;
+    /* background-color: #0e0e0e; */
+}
+
+.LoginText p{
+    font-size: 2em;
+}
+
+.fade-in {
+    animation: fadeIn 1s forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.fade-out {
+    animation: fadeOut 1s forwards;
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
