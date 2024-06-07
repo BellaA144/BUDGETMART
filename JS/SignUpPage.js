@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
             xhr.onreadystatechange = function () {
                 console.log(xhr.readyState)
                 if (xhr.readyState === XMLHttpRequest.DONE) {
-                    alert(xhr.status)
+                    // alert(xhr.status)
                     if (xhr.status === 200) {
                         console.log("User Create. Redirecting to index.html");
                         alert('Sign up successful!');
