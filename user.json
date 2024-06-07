@@ -82,5 +82,12 @@
     "email": "habib@gmail.com",
     "mobilephone": "089087564312",
     "role": "user"
+  },
+  {
+    "user": "Bebel",
+    "password": "bebel123",
+    "email": "bebel@gmail.com",
+    "mobilephone": "08128492231893",
+    "role": "user"
   }
 ]
