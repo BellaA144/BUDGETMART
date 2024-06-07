@@ -287,3 +287,12 @@ function handleCheckout() {
         alert('Pilih setidaknya dua produk untuk membandingkan.');
     }
 }
+
+document.getElementById('accountButton').addEventListener('click', function() {
+    var navbar = document.getElementById('nav');
+    if (navbar.style.display === 'none' || navbar.style.display === '') {
+        navbar.style.display = 'block';
+    } else {
+        navbar.style.display = 'none';
+    }
+});

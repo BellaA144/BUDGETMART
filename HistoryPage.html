@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BUDGETMART</title>
     <link rel="icon" href="./Assets/PP.png" type="image/png">
-    <link rel="stylesheet" href="./CSS/ShoppingCartPage.css">
+    <link rel="stylesheet" href="./CSS/HistoryPage.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
@@ -48,7 +48,7 @@
             </div>
             <div class="ProfileBox">
                 <div class="ProfileText">
-                    <h4>My Account</h4>
+                    <h4 id="accountButton">My Account</h4>
                 </div>
                 <div class="ProfilePic">
                     <img src="./Assets/Proifle pict.png" alt="">
@@ -57,31 +57,13 @@
         </div>
     </header>
     <main>
-        <div class="CartHeader">
-            <div class="CartBox">
-                <div class="CartTitle">
-                    <h1>My Shopping Cart</h1>
-                </div>
+        <div class="HistoryBox">
+            <div class="HistoryTitle">
+                <h1>History</h1>
             </div>
-        </div>
-        <div class="CartContainer">
-            <!-- Cart items will be injected here by JavaScript -->
-        </div>
-        <div class="CartChekot">
-            <div class="ChekotBox">
-                <div class="ChekotEdit">
-                    <h4>Edit</h4>
-                </div>
-                <div class="ChekotAll">
-                    <input type="checkbox" id="selectAllCheckbox">
-                    <label for="selectAllCheckbox">All</label>
-                </div>
-                <div class="ChekotPrice">
-                    <!-- menampilkan price pada shopping cart yang dicentang -->
-                </div>
-                <div class="ChekotButton">
-                    <button class="deleteButton">Delete</button>
-                    <button class="compareButton">Compare</button>
+            <div class="HistoryContainer">
+                <div class="HistoryList">
+                    <!-- Penampilan datanya di sini -->
                 </div>
             </div>
         </div>
@@ -147,6 +129,6 @@
             <p>&copy; 2024 Supermarket. All rights reserved.</p>
         </div>
     </footer>
-    <script src="/JS/ShoppingCartPage.js"></script>
+    <script src="./JS/HistoryPage.js"></script>
 </body>
 </html>

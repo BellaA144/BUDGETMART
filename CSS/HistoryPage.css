@@ -198,7 +198,7 @@ nav ul li a {
     display: none;
 }
 
-main {
+main{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -206,129 +206,76 @@ main {
     padding: 20px 0;
 }
 
-.CartHeader{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 90vw;
-    height: 10vh;
-}
-
-.CartBox{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 65vw;
-    height: 10vh;
-}
-
-.CartTitle{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgba(255, 255, 255, 0.4);
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
-    border-radius: 20px;
-    width: 40vw;
-    height: 10vh;
-}
-
-.CartTitle h1{
-    font-size: 2em;
-}
-
-.CartEdit{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 10vw;
-    height: 10vh;
-}
-
-.CartEdit h4{
-    font-size: 1.5em;
-}
-
-.CartContainer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 20px;
-    width: 90vw;
-    /* margin: auto; */
-}
-
-.CartItem {
+.HistoryBox{
     display: flex;
     flex-direction: column;
-    background: white;
-    padding: 10px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 30%; /* Setiap produk menempati 50% lebar dari CartContainer */
-    margin-bottom: 20px;
-    text-align: center;
+    align-items: center;
+    justify-content: baseline;
+    width: 90vw;
+    height: 100vh;
+    background-color: #fefefeee;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgb(0,0,0,0.2);
+    overflow: hidden;
+}
+
+.HistoryTitle{
+    display: flex;
     align-items: center;
     justify-content: center;
+    width: 80vw;
+    height: 10vh;
+    border-bottom: 2px solid rgb(6, 6, 6);
+    margin-bottom: 20px;
 }
 
-.CartItem img {
-    width: 150px;
-    height: 150px;
-    height: auto;
-    border-radius: 5px;
+.HistoryTitle h1{
+    font-size: 1.8em;
 }
 
-.CartItem h3 {
-    margin: 10px 0;
+.HistoryContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    height: 80vh;
+    padding: 0 20px;
+}
+    
+.HistoryList{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: baseline;
+    width: 80vw;
+    height: 75vh;
+    overflow-y: auto; 
 }
 
-.CartItem p {
-    margin: 5px 0;
-    color: #555;
+.HistoryEntry {
+    border: 1px solid #ccc; /* Optional: Adding border for better separation */
+    width: 80vw;
+    padding: 10px;
+    margin-bottom: 15px; /* Adding margin for spacing */
+    border-radius: 5px; /* Optional: Rounded corners */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Optional: Adding shadow for better visual separation */
 }
 
-.CartItem .price {
-    font-weight: bold;
+.HistoryDate {
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.HistoryItems {
+    font-size: 1em;
     color: #333;
+    margin-bottom: 10px;
 }
 
-.CartItem .rating {
-    color: #FFD700;
-    font-size: 16px;
-}
-
-.CartChekot {
-    display: flex;
-    align-items: center;
-    justify-content: end;
-    width: 90vw;
-    height: 10vh;
-}
-
-.ChekotBox {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    width: 40vw;
-    height: 10vh;
-    background-color: #f1f1f1;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.ChekotBox label {
-    margin-left: 5px; /* Mengatur jarak antara checkbox dan teks "All" */
-}
-
-.checkoutCheckbox {
-    width: 5vw; /* Menyesuaikan lebar checkbox */
-    height: 5vh; /* Menyesuaikan tinggi checkbox */
-    margin-right: 20vw;
-}
-
-.deleteButton {
-    width: 60px; /* Menyesuaikan lebar tombol Delete */
+.HistoryTotal {
+    font-size: 1.1em;
+    color: #333;
+    font-weight: bold;
 }
 
 footer {
@@ -403,7 +350,6 @@ footer {
     margin-top: 12px;
     font-size: 1em;
 }
-
 
 .FootEnd{
     display: flex;

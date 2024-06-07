@@ -202,6 +202,29 @@ function summaryResult() {
 
     alert(`Pembelanjaan sukses dilakukan!\nProduk yang dibeli:\n${selectedItems.map(item => item.namaProduk).join(', ')}\nTotal Pembayaran: ${totalOverall}`);
 
+    // Dapatkan data riwayat pembelian sebelumnya dari localStorage
+    const history = JSON.parse(localStorage.getItem('purchaseHistory')) || [];
+
+    // Tambahkan data checkout yang baru ke dalam history
+    const newEntry = {
+        date: new Date().toLocaleString(),
+        items: selectedItems,
+        total: totalOverall
+    };
+    history.push(newEntry);
+
+    // Simpan kembali ke localStorage
+    localStorage.setItem('purchaseHistory', JSON.stringify(history));
+
     // Redirect to HomePage.html
     window.location.href = 'index.html';
 }
+
+document.getElementById('accountButton').addEventListener('click', function() {
+    var navbar = document.getElementById('nav');
+    if (navbar.style.display === 'none' || navbar.style.display === '') {
+        navbar.style.display = 'block';
+    } else {
+        navbar.style.display = 'none';
+    }
+});

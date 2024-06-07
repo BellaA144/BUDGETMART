@@ -78,3 +78,12 @@ document.addEventListener('DOMContentLoaded', () => {
     updateFeedbackHistory('Sample Feedback 1', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.', 4);
     updateFeedbackHistory('Sample Feedback 2', 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 5);
 });
+
+document.getElementById('accountButton').addEventListener('click', function() {
+    var navbar = document.getElementById('nav');
+    if (navbar.style.display === 'none' || navbar.style.display === '') {
+        navbar.style.display = 'block';
+    } else {
+        navbar.style.display = 'none';
+    }
+});
